@@ -5,7 +5,7 @@
   background-color: pink;
 }
 
-.home-page{
+.home-page {
   background-image: url(../images/background.png);
   width: 100%;
   margin-bottom: 25px;
@@ -14,19 +14,36 @@
 .menu {
   float: left;
   width: 50%;
+  text-align: center;
+  // padding:0 20px 0 0;
 }
+
 .menu ul {
-  list-style-type:none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.menu li{
+
+.menu li {
   display: inline-block;
 }
-.menu a{
+
+.menu a {
   color: $color-text;
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 15px;
-  
+}
+
+.slogan {
+  width: 100%;
+  margin: 50px 15px;
+}
+
+.navigation {
+  padding-top: 10px;
+}
+
+.discover {
+  text-align: center;
 }

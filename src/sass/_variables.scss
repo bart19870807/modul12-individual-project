@@ -3,3 +3,14 @@ $color-gold:#BEA67C;
 $color-text:#fff;
 $color-line:#000;
 
+.gold-letters{
+  text-transform: uppercase;
+  color: $color-gold;
+  font-size: 50px;
+}
+
+hr{
+  background-color: $color-gold;
+  width: 200px;
+  height: 2px;
+}
