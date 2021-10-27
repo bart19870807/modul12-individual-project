@@ -13,4 +13,19 @@ hr{
   background-color: $color-gold;
   width: 200px;
   height: 2px;
+  text-align: center;
+}
+h4 {
+  color: $color-line;
+}
+.post-title{
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.post-line{
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  
 }

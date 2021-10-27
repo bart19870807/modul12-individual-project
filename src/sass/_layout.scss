@@ -4,13 +4,16 @@
   padding: 0 20px;
   background-color: pink;
 }
-
+// HOME PAGE WITH LOGO and MENU
 .home-page {
   background-image: url(../images/background.png);
   width: 100%;
   margin-bottom: 25px;
 }
-
+.navigation {
+  padding-top: 10px;
+}
+//MENU
 .menu {
   float: left;
   width: 50%;
@@ -40,10 +43,45 @@
   margin: 50px 15px;
 }
 
-.navigation {
-  padding-top: 10px;
-}
-
+// BUTTON, CLASS DISCOVER
 .discover {
   text-align: center;
+}
+//SECTION CONTACT
+.contact{
+  background-color: $color-text;
+  text-align: center;
+  padding: 20px 0; 
+}
+form{
+  text-transform: uppercase;
+}
+label{
+  font-weight: bold;
+  margin: 20px 0;
+}
+//SECTION ABOUT US
+.aboutUs{
+  background-image: url(../images/about-us.jpg);
+}
+.paragraphs{
+  width: 600px;
+  margin: 0 auto;
+  
+}
+p{
+  color: $color-text;
+  text-align: left;
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+//FOOTER
+.foot{
+  text-align: center;
+  font-size: 12px;
+  background-color: $color-text;
+  margin: 0;
+  padding: 10px 0;
+  
 }
