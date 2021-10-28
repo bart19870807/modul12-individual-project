@@ -10,6 +10,7 @@
   width: 100%;
   margin-bottom: 25px;
 }
+
 .navigation {
   padding-top: 10px;
 }
@@ -41,6 +42,8 @@
 .slogan {
   width: 100%;
   margin: 50px 15px;
+  padding: 20px 0;
+  text-align: center;
 }
 
 // BUTTON, CLASS DISCOVER
@@ -51,24 +54,38 @@
 .contact{
   background-color: $color-text;
   text-align: center;
-  padding: 20px 0; 
+  padding: 40px 0; 
 }
+
 form{
   text-transform: uppercase;
 }
+
 label{
   font-weight: bold;
   margin: 20px 0;
+  padding: 2px 0;
+}
+.lattice{
+  // padding: 20px 0;
+  margin: 10px 0;
+  width: 300px;
+}
+textarea{
+  margin: 10px 0;
+  width: 300px;
 }
 //SECTION ABOUT US
 .aboutUs{
   background-image: url(../images/about-us.jpg);
 }
+
 .paragraphs{
   width: 600px;
   margin: 0 auto;
   
 }
+
 p{
   color: $color-text;
   text-align: left;

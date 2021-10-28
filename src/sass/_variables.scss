@@ -6,7 +6,8 @@ $color-line:#000;
 .gold-letters{
   text-transform: uppercase;
   color: $color-gold;
-  font-size: 50px;
+  font-size: 65px;
+  letter-spacing: 10px;
 }
 
 hr{
@@ -15,14 +16,17 @@ hr{
   height: 2px;
   text-align: center;
 }
+
 h4 {
   color: $color-line;
 }
+
 .post-title{
   text-align: center;
   margin: 0;
   padding: 20px 0;
 }
+
 .post-line{
   width: 300px;
   margin-top: 0;
