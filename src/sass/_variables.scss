@@ -3,11 +3,16 @@ $color-gold:#BEA67C;
 $color-text:#fff;
 $color-line:#000;
 
+//Fonts used
+$font-text:'Source Sans Pro', sans-serif;
+
 .gold-letters{
   text-transform: uppercase;
   color: $color-gold;
   font-size: 65px;
   letter-spacing: 10px;
+  font-family: $font-text;
+  font-weight: 800;
 }
 
 hr{
@@ -19,12 +24,14 @@ hr{
 
 h4 {
   color: $color-line;
+  $font-text:'Source Sans Pro', sans-serif;
 }
 
 .post-title{
   text-align: center;
   margin: 0;
   padding: 20px 0;
+  $font-text:'Source Sans Pro', sans-serif;
 }
 
 .post-line{

@@ -2,13 +2,21 @@
   max-width: 1500px;
   margin-top: 0 auto;
   padding: 0 20px;
-  background-color: pink;
+  background-color:black;
 }
 // HOME PAGE WITH LOGO and MENU
 .home-page {
-  background-image: url(../images/background.png);
+  // background-image: url(../images/background.png);
   width: 100%;
   margin-bottom: 25px;
+  padding-bottom: 25px;
+  // opacity: 0.55;
+}
+.mainView{
+  background-image: url(../images/background.png);
+  opacity: 0.99;
+  // z-index: -20;
+  
 }
 
 .navigation {
@@ -41,7 +49,7 @@
 
 .slogan {
   width: 100%;
-  margin: 50px 15px;
+  margin: 50px 0;
   padding: 20px 0;
   text-align: center;
 }
@@ -49,6 +57,7 @@
 // BUTTON, CLASS DISCOVER
 .discover {
   text-align: center;
+  width: 100%;
 }
 //SECTION CONTACT
 .contact{
@@ -66,11 +75,24 @@ label{
   margin: 20px 0;
   padding: 2px 0;
 }
+.btnbtn{
+  background-color:$color-gold;
+  color: $color-text;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  width: 160px;
+  text-align: center;
+  border: none;
+  height: 35px;
+}
+
 .lattice{
   // padding: 20px 0;
   margin: 10px 0;
   width: 300px;
 }
+
 textarea{
   margin: 10px 0;
   width: 300px;
@@ -78,11 +100,15 @@ textarea{
 //SECTION ABOUT US
 .aboutUs{
   background-image: url(../images/about-us.jpg);
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 .paragraphs{
-  width: 600px;
+  width: 650px;
   margin: 0 auto;
+  text-align: center;
   
 }
 
@@ -91,7 +117,9 @@ p{
   text-align: left;
   font-size: 20px;
   margin: 5px 0;
+  $font-text:'Source Sans Pro', sans-serif;
 }
+
 
 //FOOTER
 .foot{
