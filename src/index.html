@@ -30,8 +30,8 @@
                 </div>
                 <div class="introduction">
                     <div class="slogan">
-                        <!-- <h2 class = "gold-letters" style="text-indent: -500px;">Home of</h2>
-                        <h2 class = "gold-letters" style="text-indent: 170px;">original tastes</h2> -->
+                        <h2 class = "gold-letters" style="text-indent: -500px;">Home of</h2>
+                        <h2 class = "gold-letters" style="text-indent: 170px;">original tastes</h2>
                         <hr>
                     </div>
                     <div class="discover">
@@ -41,32 +41,35 @@
                 </div>
             </div>
         </div>
-        <section class="products">
-            <div class="product-offert">
-                <h2 class="post-title">products</h2>
-                <hr class="post-line">
-                <div class="first-presentation row">
-                    <div class="product-first col">
-                        <div class="line">1</div>
-                        <div class="description">2</div>
-                        <div class="roasting">3</div>
-                        <div class="intensity">4</div>
-                        <div class="award">5</div>
+        <script id="produkty" type="text/x-handlebars-template">
+            <section class="products">
+                <div class="product-offert">
+                    <h2 class="post-title">products</h2>
+                    <hr class="post-line">
+                    <div class="first-presentation row">
+                        <div class="product-first col">
+                            <div class="line">1</div>
+                            <div class="description">{{description}}</div>
+                            <div class="roasting">{{roasting}}</div>
+                            <div class="intensity">{{intensity}}</div>
+                            <div class="award">5</div>
+                        </div>
+                        <div class="img-1 col">zdjecie</div>
                     </div>
-                    <div class="img-1 col">zdjecie</div>
-                </div>
-                <div class="second-presentation row">
-                    <div class="img-2 col">foto</div>
-                    <div class="product-second col">
-                        <div class="line">6</div>
-                        <div class="description">7</div>
-                        <div class="roasting">8</div>
-                        <div class="intensity">9</div>
-                        <div class="award">0</div>
+                    <div class="second-presentation row">
+                        <div class="img-2 col">foto</div>
+                        <div class="product-second col">
+                            <div class="line">6</div>
+                            <div class="description">7</div>
+                            <div class="roasting">8</div>
+                            <div class="intensity">9</div>
+                            <div class="award">0</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </script>
+        
         <section class="contact">
             <h2 class="post-title">contact us</h2>
             <hr class="post-line">
@@ -103,7 +106,7 @@
         </footer>
     </div>
 
-    <script type="text/x-handlebars-template"></script>
+    
 
     <script type="modul" src="./js/script.js"></script>
     <script src="./vendor/js/handlebars-v4.7.7.js"></script>
