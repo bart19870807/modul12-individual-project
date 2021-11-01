@@ -2,7 +2,7 @@
   max-width: 1500px;
   margin-top: 0 auto;
   padding: 0 20px;
-  background-color:black;
+  background-color: black;
 }
 // HOME PAGE WITH LOGO and MENU
 .home-page {
@@ -12,6 +12,7 @@
   padding-bottom: 25px;
   // opacity: 0.55;
 }
+
 .mainView{
   background-image: url(../images/background.png);
   opacity: 0.99;
@@ -59,6 +60,11 @@
   text-align: center;
   width: 100%;
 }
+//SECTION PRODUCT
+.product-offert{
+  color: $color-text;
+}
+
 //SECTION CONTACT
 .contact{
   background-color: $color-text;
@@ -75,8 +81,9 @@ label{
   margin: 20px 0;
   padding: 2px 0;
 }
+
 .btnbtn{
-  background-color:$color-gold;
+  background-color: $color-gold;
   color: $color-text;
   text-transform: uppercase;
   letter-spacing: 2px;

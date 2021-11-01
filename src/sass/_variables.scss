@@ -24,14 +24,14 @@ hr{
 
 h4 {
   color: $color-line;
-  $font-text:'Source Sans Pro', sans-serif;
+  font-family: $font-text;
 }
 
 .post-title{
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  $font-text:'Source Sans Pro', sans-serif;
+  font-family: $font-text;
 }
 
 .post-line{
