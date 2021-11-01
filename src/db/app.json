@@ -1,1 +1,27 @@
-{} 
+{
+
+  "products":[
+    {
+      "id": "cofee-1",
+      "title": "0.1 la lagartija",
+      "description": "vbauivbudbvasvlsdnlsv",
+      "roasting": "5/10",
+      "intensity": "6/10"
+    },
+    {
+      "id": "cofee-2",
+      "title": "0.2 el tigre",
+      "description": "vbauivbudbvasvlsdnlsv",
+      "roasting": "8/10",
+      "intensity": "9/10"
+    },
+    {
+      "id": "cofee-3",
+      "title": "0.3 la cucaracha",
+      "description": "vbauivbudbvasvlsdnlsv",
+      "roasting": "3/10",
+      "intensity": "7/10"
+    }
+  ]
+}
+
