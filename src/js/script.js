@@ -6,6 +6,7 @@ import { settings } from './settings.js';
     initData: function() {
       const url = settings.db.url + '/' + settings.db.products;
       this.data = {};
+      console.log(url);
       fetch(url)
         .then((rawResponse) => {
           return rawResponse.json();
