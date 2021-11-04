@@ -21,17 +21,17 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">products</a></li>
-                            <li><a href="#">contact</a></li>
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#productss">products</a></li>
+                            <li><a href="#contact">contact</a></li>
                         </ul>
                     </div>
                     <div class="cleared"></div>
                 </div>
-                <div class="introduction">
+                <div class="introduction" id="home">
                     <div class="slogan">
-                        <h2 class = "gold-letters" style="text-indent: -500px;">Home of</h2>
-                        <h2 class = "gold-letters" style="text-indent: 170px;">original tastes</h2>
+                        <!-- <h2 class = "gold-letters" style="text-indent: -500px;">Home of</h2>
+                        <h2 class = "gold-letters" style="text-indent: 170px;">original tastes</h2> -->
                         <hr>
                     </div>
                     <div class="discover">
@@ -41,11 +41,11 @@
                 </div>
             </div>
         </div>
-        <script id="produkty" type="text/x-handlebars-template">
-            <section class="products">
-                <div class="product-offert">
-                    <h2 class="post-title">products</h2>
-                    <hr class="post-line">
+        <section class="products">
+            <div class="product-offert" id="productss">
+                <h2 class="post-title">product</h2>
+                <hr class="post-line">
+                <script id="produkty" type="text/x-handlebars-template">
                     <div class="first-presentation row">
                         <div class="product-first col">
                             <div class="line">1</div>
@@ -66,11 +66,10 @@
                             <div class="award">0</div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </script>
-        
-        <section class="contact">
+                </script>
+            </div>
+        </section>
+        <section class="contact" id="contact">
             <h2 class="post-title">contact us</h2>
             <hr class="post-line">
             <form>
@@ -84,7 +83,7 @@
                 <button type="submit" value="submit" class="btnbtn">submite</button>
             </form>
         </section>
-        <section class="aboutUs">
+        <section class="aboutUs" id="home">
             <div class="aboutUsDescription">
                 <h2 class="post-title">about us</h2>
                 <hr class="post-line">
@@ -104,12 +103,11 @@
                 <h5>@ 2014 EL TIGRE inc.</h5>
             </div>
         </footer>
+        <div id="app"></div>
     </div>
-
-    
-
     <script type="modul" src="./js/script.js"></script>
     <script src="./vendor/js/handlebars-v4.7.7.js"></script>
+    <script src="./js/settings.js"></script>
 </body>
 
 </html>
