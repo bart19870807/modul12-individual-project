@@ -55,6 +55,14 @@
   text-align: center;
 }
 
+//ADD and REMOVE active class
+.page{
+  display: none;
+}
+.page.active {
+  display: block;
+}
+
 // BUTTON, CLASS DISCOVER
 .discover {
   text-align: center;
@@ -137,6 +145,7 @@ p{
   padding: 10px 0;
   
 }
+
 #app{
   height: 50px;
   background-color: pink;

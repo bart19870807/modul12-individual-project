@@ -19,13 +19,22 @@
                         <h3 class="logoTextOne"><span>el tigre</span></h3>
                         <h3 class="logoTextTwo"><span>venezuela coffee beans</span></h3>
                     </div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#home">home</a></li>
-                            <li><a href="#productss">products</a></li>
-                            <li><a href="#contact">contact</a></li>
-                        </ul>
-                    </div>
+                    <section id="navi" class="navi">
+                        <div class="menu">
+                            <ul class="list">
+                                <li class="item">
+                                    <a href="#home">home</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#products">products</a>
+                                </li>
+                                <li class="item">
+                                    <a href="#contact">contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
                     <div class="cleared"></div>
                 </div>
                 <div class="introduction" id="home">
@@ -41,17 +50,16 @@
                 </div>
             </div>
         </div>
-        <section class="products">
-            <div class="product-offert" id="productss">
+        <section id="products" class="products page active">
+            <div class="product-offert" id="products">
                 <h2 class="post-title">product</h2>
                 <hr class="post-line">
-                <script id="produkty" type="text/x-handlebars-template">
                     <div class="first-presentation row">
                         <div class="product-first col">
                             <div class="line">1</div>
-                            <div class="description">{{description}}</div>
-                            <div class="roasting">{{roasting}}</div>
-                            <div class="intensity">{{intensity}}</div>
+                            <div class="description">2</div>
+                            <div class="roasting">3</div>
+                            <div class="intensity">4</div>
                             <div class="award">5</div>
                         </div>
                         <div class="img-1 col">zdjecie</div>
@@ -66,10 +74,9 @@
                             <div class="award">0</div>
                         </div>
                     </div>
-                </script>
-            </div>
+                </div>
         </section>
-        <section class="contact" id="contact">
+        <section id="contact" class="contact page" >
             <h2 class="post-title">contact us</h2>
             <hr class="post-line">
             <form>
@@ -83,7 +90,7 @@
                 <button type="submit" value="submit" class="btnbtn">submite</button>
             </form>
         </section>
-        <section class="aboutUs" id="ho">
+        <section id="about" class="aboutUs page active" >
             <div class="aboutUsDescription">
                 <h2 class="post-title">about us</h2>
                 <hr class="post-line">
@@ -103,6 +110,11 @@
                 <h5>@ 2014 EL TIGRE inc.</h5>
             </div>
         </footer>
+        <script id="productTamplet" type="text/x-handlebars-template">
+            {{#each products}}
+            <h2>{{id}}</h2>
+            {{/each}}
+        </script>
         <div id="app"></div>
     </div>
     <script type="module" src="./js/script.js"></script>
